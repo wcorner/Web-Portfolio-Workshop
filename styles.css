@@ -1,0 +1,48 @@
+:root {
+    --brand-1: #71365A;
+}
+
+header {
+    background-color: black;
+    padding: 16px 24px;
+    font-family: "Source Serif 4", serif;
+    a {
+      color: white;
+      text-decoration: none;
+    }
+}
+
+h1 {
+    font-size: 96px;
+    color: var(--brand-1);
+}
+
+h2, h3 {
+    color: white;
+}
+
+.banner {
+     color: var(--brand-1);
+     text-align: center;
+     max-width: 800px;
+     margin: 0 auto;
+    strong {
+        font-size: 1.5rem;
+    }
+}
+
+.projects {
+   background: linear-gradient(180deg, var(--brand-1) 0%, #000 100%);
+   h2 {
+    text-align: center;
+   }
+   ul {
+       max-width: 800px;
+       margin: 0 auto;
+   }
+}
+
+.project-image {
+    width: 200px;
+    height: 50px;
+}
